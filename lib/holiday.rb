@@ -65,7 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
         last_holiday<<w.capitalize!
       end
     holiday = last_holiday.join(" ")
-    supply = supply.join(" ")
+    supply = supplies.join(" ")
     puts "#{holiday}: #{supply}"
   end
   end
