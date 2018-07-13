@@ -58,7 +58,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   holiday_supplies.each do |season, holidays|
     puts "#{season.to_s.capitalize!}:"
-    holidays.each do |holiday, second_supply_for_fourth_of_july|
+    holidays.each do |holiday, supply|
       array = holiday.to_s.split("_")
       last_holiday = []
       array.each do |w|
